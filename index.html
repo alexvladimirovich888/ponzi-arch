@@ -3,7 +3,7 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ponzi Architect</title>
+  <title>Ponzi Build Simulation</title>
   <script src="/_sdk/element_sdk.js"></script>
   <style>
         body {
@@ -733,7 +733,7 @@
    <header class="header">
     <div class="header-top">
      <div class="title" id="gameTitle">
-      PONZI ARCHITECT
+      Ponzi Build Simulation
      </div>
      <div class="header-buttons"><button class="header-btn" onclick="closeGame()">X</button> <a href="https://pump.fun" target="_blank" rel="noopener noreferrer" class="header-btn">pump.fun</a>
      </div>
@@ -904,7 +904,7 @@
 
         // Default configuration
         const defaultConfig = {
-            game_title: "PONZI ARCHITECT",
+            game_title: "Ponzi Build Simulation",
             recruit_button_text: "Recruit New Investor",
             collapse_message: "THE PYRAMID FALLS – Congratulations, you're free… and broke."
         };
@@ -1317,7 +1317,7 @@
 
         function closeGame() {
             // Simple close function - in a real app this might minimize or close the window
-            if (confirm('Close Ponzi Architect?')) {
+            if (confirm('Close Ponzi Build Simulation?')) {
                 document.body.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Courier New; color: #00ff41; font-size: 24px;">Game Closed</div>';
             }
         }
